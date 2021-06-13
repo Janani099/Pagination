@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <title>Document</title>
+    <style>
+        /* Pagination links */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+    </style>
+</head>
+<body style="width:100%s;margin: auto;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Pagination task</h3>
+    <script src ="page.js"> </script> 
+
+
+    <div>
+        <div class="pagination">
+            <a href="#" onclick="precount()" >&laquo;</a>
+            <a href="#" onclick="pagenation(0)" >0</a>
+            <a href="#" onclick="pagenation(1)" >1</a>
+            <a onclick="pagenation(2)" href="#">2</a>
+            <a onclick="pagenation(3)" href="#">3</a>
+            <a onclick="pagenation(4)" href="#">4</a>
+            <a onclick="pagenation(5)" href="#">5</a>
+            <a onclick="pagenation(6)" href="#">6</a>
+            <a onclick="pagenation(7)" href="#">7</a>
+            <a onclick="pagenation(8)" href="#">8</a>
+            <a onclick="pagenation(9)" href="#">9</a>
+            <a href="#" onclick="nextcount()" >&raquo;</a>
+          </div>
+    </div>
+</body>
+</html>
